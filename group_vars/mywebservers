@@ -1,2 +1,2 @@
-mywebpackonunbuntu = apache
-mywebpackonunRedHat = httpd
+mywebpackonubuntu = apache2
+mywebpackonRedHat = httpd
