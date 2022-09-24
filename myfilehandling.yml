@@ -8,3 +8,8 @@
       path: /home/ubuntu/myfolder
       state: directory
 
+  - name: i want to copy files
+    copy:
+      src: mystaticfile
+      dest: /home/ubuntu/mystaticfile.txt
+      
