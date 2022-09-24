@@ -16,4 +16,9 @@
   - name: i want to copy files
     copy: 
       src: mystaticfile
-      dest: /home/ubuntu/mystaticfile.txt    
+      dest: /home/ubuntu/mystaticfile.txt 
+
+  - name: copy dynamic file
+    template:       
+      src: myindex.j2
+      dest: /var/www/html/index.html
