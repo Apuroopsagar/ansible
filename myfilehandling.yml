@@ -12,4 +12,8 @@
     apt:
       name: apache2
       state: present
-      
+
+  - name: i want to copy files
+    copy: 
+      src: mystaticfile
+      dest: /home/ubuntu/mystaticfile.txt    
